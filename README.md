@@ -1,5 +1,5 @@
 ## Time-Slider
-This is my attempt to introduce a time slider to this D3 Gantt Chart
+This is my attempt to introduce a time slider to this D3 Gantt-Chart
 
 ## Introduction
 A basic implementation of a Gantt Chart using D3.js. Here is a example [Example 1] (http://bl.ocks.org/dk8996/5534835) and another one [Example 2] (http://bl.ocks.org/dk8996/5449641).
