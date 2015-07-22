@@ -1,10 +1,13 @@
+## Time-Slider
+This is my attempt to introduce a time slider to this D3 Gantt Chart
+
 ## Introduction
 A basic implementation of a Gantt Chart using D3.js. Here is a example [Example 1] (http://bl.ocks.org/dk8996/5534835) and another one [Example 2] (http://bl.ocks.org/dk8996/5449641).
 
 ![screenshot](https://raw.github.com/dk8996/Gantt-Chart/master/examples/screenshot1.png)
 
 #### External Data Example
-Here is a [example] (http://static.mentful.com/d3ganttchart/example.html) of loading external data, in JSON format, into the Gantt Chart, you need to watch out for [cross-domain restrictions] (http://en.wikipedia.org/wiki/Same-origin_policy). 
+Here is a [example] (http://static.mentful.com/d3ganttchart/example.html) of loading external data, in JSON format, into the Gantt Chart, you need to watch out for [cross-domain restrictions] (http://en.wikipedia.org/wiki/Same-origin_policy).
 
 ## Getting Started
 ### Data
@@ -45,7 +48,7 @@ var taskStatus = {
   .bar {
       fill: #33b5e5;
   }
-  
+
   .bar-failed {
     fill: #CC0000;
   }
@@ -53,7 +56,7 @@ var taskStatus = {
   .bar-running {
       fill: #669900;
   }
-  
+
   .bar-succeeded {
     fill: #33b5e5;
   }
@@ -95,5 +98,5 @@ Relies on the fantastic [D3 visualization library](http://mbostock.github.com/d3
    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
    See the License for the specific language governing permissions and
    limitations under the License.
-   
+
    [![githalytics.com alpha](https://cruel-carlota.pagodabox.com/c088458a0319a78b63aaea9c54fba4de "githalytics.com")](http://githalytics.com/dk8996/Gantt-Chart)
